@@ -176,6 +176,17 @@ a
         width:20%;
         height:auto;
     }
+    
+    #video
+{
+    width:20rem;
+    height:20rem;
+    display: block;
+    
+    position:relative;
+    top:-30rem;
+    left:19rem;   
+}
 }
 
 
