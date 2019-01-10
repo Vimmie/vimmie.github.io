@@ -1,0 +1,303 @@
+/* Styling the HTML body*/
+body
+{
+ background-color: #1d1c1c;
+ color: white;
+ font-family: "Century Gothic", Century, Geneva, sans-serif;
+}
+
+/* Header*/
+
+#logo
+{
+    width:16rem;
+    height:4rem;
+}
+
+/* Styling the vertical navigation menu*/
+.verticalMenu
+{
+    width:8rem;
+    float:left;
+    font-size: 0.875rem;
+    list-style:none;
+    text-align: center;
+    
+}
+
+.verticalMenu a
+{    
+    background-color: darkred;
+    color: black;
+    text-decoration: none;
+    
+    width:16rem;
+    padding:0.75rem;
+    display: block;
+    
+    position:relative;
+    top:1rem;
+    right:2rem;
+}
+
+.verticalMenu a:hover
+{
+    background-color: #2a1e1e;
+}
+
+/* Styling the page title*/
+
+#title
+{
+    float:right;
+    color:darkred;
+    font-size:2.5rem;
+    font-weight:800;
+    
+    position: relative;
+    top:-5.938rem;
+}
+
+#help
+{
+    display:block;
+    font-size:0.9rem;
+    position: relative;
+    top:-1.25rem;
+    right:-12.5rem;
+}
+
+/* Styling the uniform & weapons section*/
+
+#personal
+{
+    color:grey;
+    text-decoration: underline;
+    margin:5rem;
+    position: relative;
+    top:2.5rem;
+    left:5.625rem;
+    border-style: solid;
+    border-width: 0.125rem;
+    
+}
+
+#personal2
+{
+    color:grey;
+    text-decoration: underline;
+    margin:5rem;
+    position: relative;
+    top:-15.63rem;
+    left:32rem;
+    border-style: solid;
+    border-width: 0.125rem;
+}
+
+.uniform
+{
+    position: relative;
+    top:3.75rem;
+    left:18.75rem;
+    text-align: left;
+    background-color: #ded4d4;
+    color:black;
+    font-size: 1.5rem;
+    width:15rem;
+    overflow:hidden;
+}
+
+.weapon
+{
+    position: relative;
+    top:-14.38rem;
+    left:43.75rem;
+    text-align: left;
+    background-color: #ad3e3e;
+    font-size: 1.5rem;
+    width:15rem;
+    overflow:hidden;
+}
+
+/* Styling the video game character choices & the shopping cart - margins, positions, flex & border properties.*/
+
+#container
+{
+    position:relative;
+    top:-12.5rem;
+}
+
+.shopItem
+{
+    margin:1.875rem:
+}
+
+.shopTitle
+{
+    display: block;
+    width:100%;
+    text-align: center;
+    font-weight:600;
+    font-size:1.5rem;
+    color:white;
+    margin:0.9375rem;
+}
+
+/* Sizing the collectibles images*/
+
+.shopImage
+{
+    height:15.63rem;
+}
+
+.shopDetails
+{
+    display: flex;
+    align-items: center;
+    padding:0.3125rem;
+}
+
+/* Styling the prices*/
+.shopPrice
+{
+    flex-grow: 1;
+    color:white;
+}
+
+.shopItems
+{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+#cart
+{
+    position:relative;
+    top:-11.88rem;
+}
+.cartHeader
+{
+    font-weight:600;
+    font-size: 1.2rem;
+    color:white;
+}
+
+.cartColumn
+{
+    display: flex;
+    align-items: center;
+    border-bottom: 0.0625rem solid red;
+    margin-top:0.625rem;
+    margin-right:1.5rem;
+    padding-bottom:0.625rem;
+}
+
+.cartRow
+{
+    display: flex;
+}
+
+.cartItem
+{
+   width:45%; 
+}
+
+.cartPrice
+{
+    width:20%;
+    font-size: 1.2rem;
+}
+
+.cartQuantity
+{
+    width:35%;
+}
+
+.cartTitle
+{
+    margin-left:0.5rem;
+    font-size: 1.2rem;
+}
+
+.cartImage
+{
+    width:4.688rem;
+    height:auto;
+    border-radius: 0.625rem;
+}
+
+/* Styling the buttons */
+
+.btnRed
+{
+    color:white;
+    background-color: #d13939;
+    border:none;
+    border-radius: 0.3rem;
+    font-weight:550;
+}
+
+/* Background color change on button hover*/
+.btnRed:hover
+{
+    background-color: #e34b4b;
+}
+
+.cartInput
+{
+    height:2.125rem;
+    width:3.125rem;
+    border-radius:0.3125rem;
+    border: 0.0625rem solid #c1b5b5;
+    
+    background-color: whitesmoke;
+    color:black;
+    padding:0;
+    text-align: center;
+    font-size:1.2rem;
+    margin-right: 1.563rem;
+}
+
+/* Creating a single solid line - under the final shopping cart item */
+
+.cartRow:last-child 
+{
+    border-bottom: 0.0625rem solid red;
+}
+
+.cartRow:last-child .cartColumn
+{
+    border:none;
+}
+
+.cartTotal
+{
+    text-align: end;
+    margin-top: 0.625rem;
+    margin-right: 0.625rem;
+}
+
+.Total
+{
+    font-weight:600;
+    font-size: 1.5rem;
+    margin-right: 1.25rem;
+}
+
+.totalPrice
+{
+    font-size:1.1rem;
+}
+
+/* Styling the purchase button - font size, boldness, margin & radius */
+.btnPurchase
+{
+    font-size: 1.6rem;
+    font-weight: 550;
+    background-color: brown;
+    color:white;
+    display: block;
+    margin: 2.5rem auto 5rem auto;
+    border-radius: 0.3rem;
+}

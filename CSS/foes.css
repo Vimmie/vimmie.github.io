@@ -1,0 +1,223 @@
+/* Styling the HTML body - changing the default cursor style*/
+body
+{
+ background-color: #1d1c1c;
+ color:white;
+ font-family: "Century Gothic", Geneva, sans-serif;
+ cursor:help;
+}
+
+/* Header*/
+#konami
+{
+    width:15rem;
+    height:5rem;
+}
+
+/* Styling the vertical navigation menu*/
+.verticalMenu
+{
+    width:8rem;
+    float:left;
+    font-size: 0.9em;
+    list-style:none;
+    text-align: center;
+}
+
+.verticalMenu a
+{
+    background-color: darkred;
+    color: black;
+    text-decoration: none;
+    
+    width:16rem;
+    padding:0.75rem;
+    display: block;
+    
+    position:relative;
+    top:0.625rem;
+    right:1.875rem;    
+}
+
+.verticalMenu a:hover
+{
+    background-color: #2a1e1e;
+}
+
+/* Styling the enemies section*/
+
+#title
+{
+   float:right;
+   font-size:3rem;
+   color:#ddd4c3;  
+   position: relative;
+
+   top:-7.188rem;
+   right:2.5rem;
+}
+
+/* Rotating the quote*/
+
+h2
+{
+      font-style:italic;
+      color:#ddd4c3;
+      text-align:center;
+      transform: rotate(-10deg);
+      font-size:2rem;
+      position:relative;
+      z-index:2;
+      right:-9.375rem;
+}
+
+#q1
+{
+    color:#c41c1c;
+    font-size:5rem;;
+    position:relative;
+    top:-3.125rem;
+    left:40rem;
+}
+
+/* Rotating some question marks and images*/
+
+#q2
+{
+    color:#c41c1c;
+    font-size:5rem;
+    position: relative;
+    transform: rotate(-20deg);
+    top:-75rem;
+    left:17.5rem;
+}
+
+#q3
+{
+    color:#c41c1c;
+    font-size:6rem;
+    position: relative;
+    transform: rotate(15deg);
+    top:-45rem;
+    left:60.63rem;
+}
+
+#fire
+{
+    width:25rem;
+    height:20rem;
+    transform: rotate(-7deg);
+    position:relative;
+    z-index: 1;
+    top:-34.38rem;
+    left:12.5rem;
+}
+
+
+#skull
+{
+  width:20rem;
+  height:35rem;
+  position: relative;
+  top:-18.75rem;
+  right:-18.75rem;
+  z-index: 1;
+  opacity:0.5;
+    
+}
+
+#mask
+{
+    width:23rem;
+    height:20rem;
+    position:relative;
+    top:-31.25rem;
+    left:25rem;
+    opacity:0.3;
+}
+
+/* Creating and styling the call to action button - border properties, z-index, positions & colours*/
+
+.button
+{
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+  border-width: 0 1.563rem 1.563rem 1.563rem;
+  height: 0;
+  width: 3.125rem;
+  box-sizing: content-box;
+  position: relative;
+  z-index: 2;
+  margin: 1.25rem 0 3.125rem 0;
+    
+  top:-65.63rem;
+  right:-6.25rem;
+}
+
+.button:after 
+{
+   content: "";
+   font-size:1rem;
+   position: absolute;
+   z-index:2;
+   top: 1.563rem;
+   left: -1.563rem;
+   width: 0;
+   height: 0;
+   border-style: solid;
+   border-color: black transparent transparent transparent;
+   border-width: 4.375rem 3.125rem 0 3.125rem;
+}
+
+.innerbutton
+{
+    font-size:1rem;
+    position:relative;
+    z-index:3;
+    right:-0.3125rem;
+    bottom: -0.9375rem;
+    width:2rem;
+    height:2rem;
+}
+
+#rating
+{
+    float:left;
+    text-align: center;
+    color:#d82323;
+    font-size:1.5rem;
+    position: relative;
+    top:-63.75rem;
+}
+
+.socialMedia
+{
+    position: relative;
+    top:-62.5rem;
+    right:21.88rem;
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.icons
+{
+    width:4rem;
+    height:3rem;
+    margin:1.5rem;
+    position: relative;
+    left:21.88rem;
+    border-radius: 50%;
+}
+    
+#copyright
+{
+    float:right;
+    color:red;
+    position: relative;
+    top:-69rem;
+}
+
