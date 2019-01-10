@@ -1,0 +1,192 @@
+/* Styling the HTML body*/
+body
+{
+ background-color: #1d1c1c;
+ color:white;
+ font-family: "Century Gothic", Geneva, sans-serif;
+}
+
+/* Styling the header*/
+
+#logo
+{
+  width:15rem;
+  height:5rem;
+}
+
+/* Styling the vertical navigation menu*/
+.verticalMenu
+{
+    width:8rem;
+    float:left;
+    font-size: 0.875rem;
+    list-style:none;
+    text-align: center;
+}
+
+.verticalMenu a
+{
+    background-color: darkred;
+    color: black;
+    text-decoration: none;
+    
+    width:14rem;
+    padding:0.75rem;
+    display: block;
+    
+    position:relative;
+    top:0.4rem;
+    right:2rem;
+}
+
+.verticalMenu a:hover
+{
+    background-color: #2a1e1e;
+}
+
+/* Styling the page title*/
+#intel
+{
+    color:#bc2727;
+    float:right;
+    position: relative;
+    top:-69.38rem;
+}
+
+/* Styling the videos section - positioning text over the videos through transformations*/
+#video
+{ 
+    position:relative;
+    top:-3.75rem;
+    left:4.375rem;
+    margin:2rem;
+    text-align: center;
+}
+
+.middle1
+{
+    position: absolute;
+    top: 34%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.middle2
+{
+    position: absolute;
+    top: 28%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.middle3
+{
+    position: absolute;
+    top: 78%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+}
+
+.middle4
+{
+    position: absolute;
+    top: 58%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    color:darkred;
+}
+
+.middle5
+{
+    position: absolute;
+    top: 85%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
+
+/* Creating and styling the call to action button*/
+
+.button
+{
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+  border-width: 0 1.563rem 1.563rem 1.563rem;
+  height: 0;
+  width: 3.125rem;
+  box-sizing: content-box;
+  position: relative;
+  z-index: 2;
+  margin: 1.25rem 0 3.125rem 0;
+      
+  top:-4.5rem;
+  right:-3rem;  
+}
+
+.button:after 
+{
+   content: "";
+   font-size:1rem;
+   position: absolute;
+   z-index:2;
+   top: 1.563rem;
+   left: -1.563rem;
+   width: 0;
+   height: 0;
+   border-style: solid;
+   border-color: black transparent transparent transparent;
+   border-width: 4.375rem 3.125rem 0 3.125rem;
+}
+
+.innerbutton
+{
+    font-size:1rem;
+    position:relative;
+    z-index:3;
+    right:-0.4375rem;
+    bottom: 3.75rem;
+    width:2rem;
+    height:2rem;
+}
+
+.socialMedia
+{
+    position: relative;
+    bottom:5rem;
+    top:-9.375rem;
+    bottom:8.125rem;
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+}
+
+
+#rating
+{
+    float:left;
+    position:relative;
+    top:-3.75rem;
+    right:-13.75rem;
+}
+
+/* Making the social media logos have rounded corners*/
+.icons
+{
+    width:4rem;
+    height:3rem;
+    margin:2rem;
+    position: relative;
+    left:15.63rem;
+    border-radius: 50%;
+}
+
+#copyright
+{
+    float:right;
+    color:red;
+    position: relative;
+    top:-14.38rem;
+}
+

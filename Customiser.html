@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title> Customiser </title>
+
+<link rel="stylesheet" href="CSS/customiser.css">
+
+<!--Linking the Javascript file-->    
+<script src="JS/main.js" async> </script>
+
+</head>
+
+    
+<body>
+
+<!--Header-->    
+
+<header>
+<img id="logo" src="Assets/Konami.jpg">
+</header>
+ 
+<!--Start of vertical menu section - block of navigation links-->    
+<section>
+    <nav>
+    <ul class = "verticalMenu" >
+        <li> <a href="index.html"> <h1> Home </h1> </a> </li>
+        <li> <a href="Ops.html"> <h1> Area Of Ops </h1> </a> </li>
+        <li> <a href="Motherbase.html"> <h1> Motherbase </h1> </a> </li>
+        <li> <a href="Foes.html" > <h1> Foes </h1> </a> </li>
+        <li> <a href="Intel.html" > <h1> Intel </h1> </a> </li>
+        <li> <a href="Customiser.html" > <h1> Customiser </h1> </a> </li>
+        <li> <a href="Demo.html"> <h1> Demo </h1></a></li>
+   </ul> 
+   </nav>
+    
+</section>
+    
+<!--Start of personalisation section--> 
+<section>
+    
+<h1 id="title"> Customiser </h1>
+
+<!--Instructions to help users customise their collectibles-->    
+
+<div id="help">
+    <p> Instructions: <br/> <br/>
+        1. Pick your desired uniform. <br/> 
+        2. Pick your desired loadout. <br/> 
+        3. Add your desired character to the cart - this will apply your above selected choices to this particular character. <br/> 
+        4. Repeat this process if you wish to buy the same or different character(s) with different looks. </p>
+</div>
+    
+<!--Available uniform colours - allows user to select only one of a number of options-->    
+<span id="personal"> UNIFORM </span>
+    
+<div class="uniform">
+
+<input type="radio" name="outfit" value="classic"> Classic <br>
+<br/>
+<input type="radio" name="outfit" value="brown"> Brown Desert <br> 
+<br/>
+<input type="radio" name="outfit" value="blue"> Olive Drab <br>
+<br/>
+<input type="radio" name="outfit" value="orange"> Tiger Orange <br>
+<br/>
+<input type="radio" name="outfit" value="red"> Red Fox <br>
+    
+</div>
+    
+<!--Available weapon choices - allows user to select only one of a number of options-->    
+
+<span id="personal2"> LOADOUT </span>
+    
+<div class="weapon"> 
+ 
+<input type="radio" name="weapon" value="classic"> Classic <br>
+<br/>
+<input type="radio" name="weapon" value="assault"> Assault Rifle <br>
+<br/>
+<input type="radio" name="weapon" value="sniper"> Sniper Rifle <br> 
+<br/>
+<input type="radio" name="weapon" value="shotgun"> Shotgun <br>
+<br/>
+<input type="radio" name="weapon" value="grenade"> Grenade Launcher<br>
+<br/>
+<input type="radio" name="weapon" value="none"> None <br>
+    
+</div>
+    
+</section>
+        
+<!--Shopping cart section - allows the user to add items to the cart & purchase them-->    
+
+<section id="container">
+  
+<div class="shopItems">
+<div class="shopItem">
+    <span class="shopTitle"> Snake </span>
+    <img class="shopImage" src=Assets/Snake.jpg>
+    <div class="shopDetails"> <span class="shopPrice"> £12.00 </span> 
+    <button class="btn itemButton" type="button"> ADD TO CART </button></div>
+</div>
+    
+<div class="shopItem">
+    <span class="shopTitle"> Ocelot </span>
+    <img class="shopImage" src=Assets/Ocelot.jpg>
+    <div class="shopDetails"> <span class="shopPrice"> £12.00 </span> 
+    <button class="btn itemButton " type="button"> ADD TO CART </button></div>
+</div>
+    
+<div class="shopItem">
+    <span class="shopTitle"> Kaz </span>
+    <img class="shopImage" src=Assets/Kaz.jpg>
+    <div class="shopDetails"> <span class="shopPrice"> £12.00 </span> 
+    <button class="btn itemButton " type="button"> ADD TO CART </button></div>
+</div>
+    
+<div class="shopItem">
+    <span class="shopTitle"> Quiet </span>
+    <img class="shopImage" src=Assets/Quiet.jpg>
+    <div class="shopDetails"> <span class="shopPrice"> £12.00 </span> 
+    <button class="btn itemButton" type="button"> ADD TO CART </button></div>
+</div>
+    
+    
+<div class="shopItem">
+    <span class="shopTitle"> Skull Face </span>
+    <img class="shopImage" src=Assets/Skull.jpg>
+    <div class="shopDetails"> <span class="shopPrice"> £12.00 </span> 
+    <button class="btn itemButton" type="button"> ADD TO CART </button></div>
+</div>
+    
+<div class="shopItem">
+    <span class="shopTitle"> Psycho Mantis </span>
+    <img class="shopImage" src=Assets/Psycho.jpg>
+    <div class="shopDetails"> <span class="shopPrice"> £12.00 </span> 
+    <button class="btn itemButton" type="button"> ADD TO CART </button></div>
+</div>
+    
+    </div>
+</section>
+    
+<section id="cart"> 
+<h2 class="sectionHeader"> CART </h2>
+
+<div class="cartRow">
+<span class="cartItem cartHeader cartColumn"> ITEM </span>  
+<span class="cartPrice cartHeader cartColumn"> PRICE </span>
+<span class="cartQuantity cartHeader cartColumn"> QUANTITY </span> 
+</div>
+    
+<div class="cartItems"> </div>
+
+<!--Overall price total-->    
+
+<div class="cartTotal">
+    <strong class="Total"> Total </strong>
+    <span class="totalPrice"> £0</span>
+</div>
+    
+<!--Purchase button - to allow user to buy their items-->    
+
+<button class="btn btnPurchase" type="button"> PURCHASE </button>
+ 
+</section>
+
+</body>
+
+</html>
