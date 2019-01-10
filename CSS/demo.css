@@ -51,11 +51,11 @@ body
 
 #video
 {
-    width:58rem;
+    width:45rem;
     height:35rem;
     display: block;
     
     position:relative;
-    top:-30rem;
+    top:-0rem;
     left:19rem; 
 }

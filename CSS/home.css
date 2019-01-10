@@ -162,4 +162,32 @@ a
     top:-46rem;
 }
 
-@media (min-width:1200px) {}
+/* Media query for nav menu */
+@media only screen and (max-width:720) 
+{
+    .verticalMenu
+    {
+        width:20%;
+        height:auto;
+    }
+    
+    .verticalMenu
+    {
+        width:20%;
+        height:auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
